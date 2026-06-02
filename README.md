@@ -42,7 +42,7 @@ Unlike many GTK4 multimedia applications, PlayX does not depend on:
 - Rust-based GTK video sink libraries
 - External GTK rendering wrappers
 
-Instead, the application uses a lightweight native rendering pipeline optimized directly for Vala, GTK4, OpenGL, and hardware accelerated video output.
+Instead, the application uses a lightweight native rendering pipeline optimized directly for Vala, GTK4, Dmabuf hardware accelerated video output.
 
 Benefits:
 - Faster startup time
