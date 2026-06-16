@@ -6,7 +6,6 @@ A modern high-performance video player built with Vala and GTK4, designed to del
 
 - 🎬 Modern GTK4 user interface
 - ⚡ Hardware accelerated video decoding
-- 🖥️ NVIDIA NVDEC/NVENC acceleration support
 - 🔥 VA-API hardware acceleration integration
 - 🎵 High quality audio playback
 - 📂 Drag and drop media support
@@ -31,25 +30,19 @@ Features:
 - Reduced CPU utilization
 - Efficient power consumption
 - Smooth 4K playback
-
-#### NVIDIA Hardware Acceleration
-Native NVIDIA GPU acceleration support using NVDEC/NVENC technologies.
-
-Features:
-- High performance hardware decoding
 - Optimized rendering pipeline
 - Smooth high bitrate playback
 - Efficient GPU video processing
 
 ## Native Rendering Pipeline
 
-Unlike many GTK4 multimedia applications, Valkast Player does not depend on:
+Unlike many GTK4 multimedia applications, PlayX does not depend on:
 
 - `gtk4paintablesink`
 - Rust-based GTK video sink libraries
 - External GTK rendering wrappers
 
-Instead, the application uses a lightweight native rendering pipeline optimized directly for Vala, GTK4, OpenGL, and hardware accelerated video output.
+Instead, the application uses a lightweight native rendering pipeline optimized directly for Vala, GTK4, Dmabuf hardware accelerated video output.
 
 Benefits:
 - Faster startup time
@@ -96,6 +89,8 @@ Vala provides:
 - GTK4
 - GStreamer
 - VA-API drivers
+- Dmabuf
+- MemoryTexture
 
 ### Build Dependencies
 
