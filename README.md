@@ -87,6 +87,8 @@ Vala provides:
 
 <img src="https://raw.githubusercontent.com/gabutakut/gabutplayx/master/Screenshot0.png" alt="Home">
 
+<img src="https://raw.githubusercontent.com/gabutakut/gabutplayx/master/Screenshot1.png" alt="Crop">
+
 ## Requirements
 
 ### Runtime Dependencies
