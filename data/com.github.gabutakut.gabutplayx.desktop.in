@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=PlayX
+Comment=Simple And Prety Video Player
+GenericName=GenericName
+Exec=com.github.gabutakut.gabutplayx %U
+Icon=com.github.gabutakut.gabutplayx
+Terminal=false
+Categories=Utility;
+Keywords=Player

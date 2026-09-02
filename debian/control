@@ -1,0 +1,29 @@
+Source: com.github.gabutakut.gabutplayx
+Section: web
+Priority: optional
+Maintainer: torikhabib <torik.habib@gmail.com>
+Build-Depends: meson (>= 0.43),
+               debhelper (>= 9),
+               valac,
+               libgtk-4-dev,
+               libsqlite3-dev,
+               libcanberra-dev,
+               libsoup-3.0-dev,
+               libgee-0.8-dev,
+               libjson-glib-dev,
+               libqrencode-dev,
+               libgdk-pixbuf-2.0-dev,
+               libcairo2-dev,
+               libcurl4-gnutls-dev,
+               libadwaita-1-dev,
+               libavformat-dev,
+               libavcodec-dev,
+               libaria2-0-dev,
+               libavdevice-dev,
+Standards-Version: 4.6.2
+
+Package: com.github.gabutakut.gabutplayx
+Architecture: any
+Depends: aria2, ${misc:Depends}, ${shlibs:Depends} 
+Description: Gabut Playx
+    Gabut Download manager that support Multi-protocol downloads torrent M3U8 magnet and interface local server.
